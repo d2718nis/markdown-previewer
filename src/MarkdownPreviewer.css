@@ -17,6 +17,10 @@
   height: 600px;
 }
 
+.MarkdownInput > textarea {
+  resize: none;
+}
+
 .MarkdownOutput > div {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
