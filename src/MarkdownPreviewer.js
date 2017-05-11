@@ -5,7 +5,7 @@ class MarkdownPreviewer extends Component {
   constructor() {
     super();
     this.state = {
-      rawText: null
+      rawText: ''
     };
   }
 
