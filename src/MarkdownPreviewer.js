@@ -6,39 +6,38 @@ class MarkdownPreviewer extends Component {
   constructor() {
     super();
     this.state = {
-      rawText: `Heading
+      rawText: `This is an H1
 =======
 
-Sub-heading
+This is an H2
 -----------
 
-### Another deeper heading
+### This is an H3
 
-Paragraphs are separated
-by a blank line.
+![alt text](https://facebook.github.io/react/img/logo.svg "Logo Title Text 1")
 
-Leave 2 spaces at the end of a line to do a
-line break
+Here is an example of AppleScript:
+
+    tell application "Foo"
+        beep
+    end tell
 
 Text attributes *italic*, **bold**,
 \`monospace\`, ~~strikethrough~~ .
 
-Shopping list:
+> This is a blockquote
 
-  * apples
-  * oranges
-  * pears
+Here goes HR delimiter:
 
-Numbered list:
+--------
 
-  1. apples
-  2. oranges
-  3. pears
+Unordered list:
 
-The rain---not the reign---in
-Spain.
+  * red
+  * green
+  * blue
 
- *[Herman Fassett](https://freecodecamp.com/hermanfassett)*`
+*[Google](https://google.com)*`
     };
   }
 
