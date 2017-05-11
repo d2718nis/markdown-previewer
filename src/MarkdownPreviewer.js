@@ -7,6 +7,7 @@ class MarkdownPreviewer extends Component {
       <div className="MarkdownPreviewer">
         <h1>Markdown Previewer</h1>
         <MarkdownInput />
+        <MarkdownOutput />
       </div>
     );
   }
@@ -18,6 +19,17 @@ class MarkdownInput extends Component {
       <div className="MarkdownInput">
         <h2>Input</h2>
         <textarea></textarea>
+      </div>
+    );
+  }
+}
+
+class MarkdownOutput extends Component {
+  render() {
+    return (
+      <div className="MarkdownOutput">
+        <h2>Output</h2>
+        <textarea disabled></textarea>
       </div>
     );
   }
