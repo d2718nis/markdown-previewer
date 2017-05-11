@@ -5,7 +5,19 @@ class MarkdownPreviewer extends Component {
   render() {
     return (
       <div className="MarkdownPreviewer">
-        Hello World
+        <h1>Markdown Previewer</h1>
+        <MarkdownInput />
+      </div>
+    );
+  }
+}
+
+class MarkdownInput extends Component {
+  render() {
+    return (
+      <div className="MarkdownInput">
+        <h2>Input</h2>
+        <textarea></textarea>
       </div>
     );
   }
