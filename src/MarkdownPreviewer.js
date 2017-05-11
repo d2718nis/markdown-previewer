@@ -5,6 +5,10 @@ import './MarkdownPreviewer.css';
 class MarkdownPreviewer extends Component {
   constructor() {
     super();
+    marked.setOptions({
+      sanitize: true,
+      breaks: true
+    });
     this.state = {
       rawText: `This is an H1
 =======
