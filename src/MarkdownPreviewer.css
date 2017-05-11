@@ -7,20 +7,19 @@
 .MarkdownInput,
 .MarkdownOutput {
   box-sizing: border-box;
-  width: 50%;
   padding: 10px;
-  float: left;
 }
 
 .MarkdownInput > textarea,
 .MarkdownOutput > div {
   box-sizing: border-box;
   width: 100%;
-  min-height: 600px;
+  height: 600px;
 }
 
 .MarkdownOutput > div {
-  background-color: #eee;
-  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
   padding-left: 10px;
+  overflow-y: scroll;
 }

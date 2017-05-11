@@ -62,7 +62,7 @@ Spain.
 class MarkdownInput extends Component {
   render() {
     return (
-      <div className="MarkdownInput">
+      <div className="MarkdownInput col-xs-12 col-sm-6">
         <h2>Input</h2>
         <textarea value={this.props.rawText} onChange={(event) => this.props.onChange(event.currentTarget.value)}></textarea>
       </div>
@@ -73,7 +73,7 @@ class MarkdownInput extends Component {
 class MarkdownOutput extends Component {
   render() {
     return (
-      <div className="MarkdownOutput">
+      <div className="MarkdownOutput col-xs-12 col-sm-6">
         <h2>Output</h2>
         <div dangerouslySetInnerHTML={{__html: this.props.rawText}}></div>
       </div>
