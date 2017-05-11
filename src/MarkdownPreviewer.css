@@ -1,4 +1,6 @@
-.MarkdownPreviewer {
+.MarkdownPreviewer > h1,
+.MarkdownInput > h2,
+.MarkdownOutput > h2 {
   text-align: center;
 }
 
@@ -10,8 +12,15 @@
   float: left;
 }
 
-.MarkdownInput textarea,
-.MarkdownOutput textarea {
+.MarkdownInput > textarea,
+.MarkdownOutput > div {
+  box-sizing: border-box;
   width: 100%;
-  min-height: 400px;
+  min-height: 600px;
+}
+
+.MarkdownOutput > div {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding-left: 10px;
 }
