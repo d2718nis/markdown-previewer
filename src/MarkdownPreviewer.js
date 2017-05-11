@@ -2,12 +2,25 @@ import React, { Component } from 'react';
 import './MarkdownPreviewer.css';
 
 class MarkdownPreviewer extends Component {
+  constructor() {
+    super();
+    this.state = {
+      rawText: null
+    };
+  }
+
+  handleOnChange(value) {
+    this.setState({
+      rawText: value
+    });
+  }
+
   render() {
     return (
       <div className="MarkdownPreviewer">
         <h1>Markdown Previewer</h1>
-        <MarkdownInput />
-        <MarkdownOutput />
+        <MarkdownInput onChange={(value) => this.handleOnChange(value)} />
+        <MarkdownOutput rawText={this.state.rawText} />
       </div>
     );
   }
@@ -18,7 +31,7 @@ class MarkdownInput extends Component {
     return (
       <div className="MarkdownInput">
         <h2>Input</h2>
-        <textarea></textarea>
+        <textarea onChange={(event) => this.props.onChange(event.currentTarget.value)}></textarea>
       </div>
     );
   }
@@ -29,7 +42,7 @@ class MarkdownOutput extends Component {
     return (
       <div className="MarkdownOutput">
         <h2>Output</h2>
-        <textarea disabled></textarea>
+        <textarea value={this.props.rawText} disabled></textarea>
       </div>
     );
   }
