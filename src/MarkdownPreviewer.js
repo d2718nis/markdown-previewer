@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import marked from 'marked';
 import './MarkdownPreviewer.css';
 
 class MarkdownPreviewer extends Component {
@@ -19,8 +20,8 @@ class MarkdownPreviewer extends Component {
     return (
       <div className="MarkdownPreviewer">
         <h1>Markdown Previewer</h1>
-        <MarkdownInput onChange={(value) => this.handleOnChange(value)} />
-        <MarkdownOutput rawText={this.state.rawText} />
+        <MarkdownInput rawText={this.state.rawText} onChange={(value) => this.handleOnChange(value)} />
+        <MarkdownOutput rawText={marked(this.state.rawText)} />
       </div>
     );
   }
@@ -31,7 +32,7 @@ class MarkdownInput extends Component {
     return (
       <div className="MarkdownInput">
         <h2>Input</h2>
-        <textarea onChange={(event) => this.props.onChange(event.currentTarget.value)}></textarea>
+        <textarea value={this.props.rawText} onChange={(event) => this.props.onChange(event.currentTarget.value)}></textarea>
       </div>
     );
   }
@@ -42,7 +43,7 @@ class MarkdownOutput extends Component {
     return (
       <div className="MarkdownOutput">
         <h2>Output</h2>
-        <textarea value={this.props.rawText} disabled></textarea>
+        <div dangerouslySetInnerHTML={{__html: this.props.rawText}}></div>
       </div>
     );
   }
