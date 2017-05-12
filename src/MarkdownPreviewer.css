@@ -58,9 +58,6 @@ body {
 .MarkdownInput > textarea:focus {
   border: none;
   outline: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
 }
 
 .MarkdownOutput > div {
