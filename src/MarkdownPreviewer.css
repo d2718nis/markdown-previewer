@@ -90,7 +90,7 @@ body {
 .credits-link,
 .credits-link:active,
 .credits-link:visited {
-  color: #ddd;
+  color: #97656f;
   text-decoration: none;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -98,6 +98,6 @@ body {
   transition: color 0.5s;
 }
 .credits-link:hover {
-  color: #fff;
+  color: #b5838d;
   text-decoration: none;
 }
