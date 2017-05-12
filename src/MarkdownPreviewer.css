@@ -1,34 +1,49 @@
-.MarkdownPreviewer > h1,
-.MarkdownInput > h2,
-.MarkdownOutput > h2 {
+body {
+  background-color: blue;
+  background: linear-gradient(to right, #B5838D , #FFCDB2);
+}
+
+.header {
   text-align: center;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .MarkdownInput,
 .MarkdownOutput {
   box-sizing: border-box;
-  padding: 10px;
+  padding: 0;
 }
 
 .MarkdownInput > textarea,
 .MarkdownOutput > div {
   box-sizing: border-box;
   width: 100%;
-  height: 600px;
+  height: 80vh;
+  padding: 5px;
+  word-wrap:break-word;
+  border: none;
+  overflow-y: scroll;
 }
 
 .MarkdownInput > textarea {
   resize: none;
+  background-color: rgba(109, 104, 117, 0.3);
+  color: #fff;
+  font-family: 'Inconsolata', monospace;
+}
+
+.MarkdownInput > textarea:focus {
+  border: none;
+  outline: none;
 }
 
 .MarkdownOutput > div {
   background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding-left: 10px;
-  overflow-y: scroll;
+  font-family: 'Roboto', sans-serif;
 }
-
-
 
 .MarkdownOutput > div img {
   max-width: 100px;

@@ -80,18 +80,26 @@ Unordered list:
   render() {
     return (
       <div className="MarkdownPreviewer">
-        <h1>Markdown Previewer</h1>
-        <MarkdownInput
-          rawText={this.state.rawText}
-          onChange={(value) => this.handleOnChange(value)}
-          onMouseEnter={(target) => this.handleOnMouseEnter(target)}
-          onMouseLeave={(target) => this.handleOnMouseLeave(target)}
-        />
-        <MarkdownOutput
-          rawText={marked(this.state.rawText)}
-          onMouseEnter={(target) => this.handleOnMouseEnter(target)}
-          onMouseLeave={(target) => this.handleOnMouseLeave(target)}
-        />
+        <div className="container-fluid">
+          <div className="row header">
+            <h1>Markdown Previewer</h1>
+          </div>
+          <div className="row">
+            <MarkdownInput
+              rawText={this.state.rawText}
+              onChange={(value) => this.handleOnChange(value)}
+              onMouseEnter={(target) => this.handleOnMouseEnter(target)}
+              onMouseLeave={(target) => this.handleOnMouseLeave(target)}
+            />
+            <MarkdownOutput
+              rawText={marked(this.state.rawText)}
+              onMouseEnter={(target) => this.handleOnMouseEnter(target)}
+              onMouseLeave={(target) => this.handleOnMouseLeave(target)}
+            />
+          </div>
+          <div className="row">
+          </div>
+        </div>
       </div>
     );
   }
@@ -101,7 +109,6 @@ class MarkdownInput extends Component {
   render() {
     return (
       <div className="MarkdownInput col-xs-12 col-sm-6">
-        <h2>Input</h2>
         <textarea
           id="input-field"
           value={this.props.rawText}
@@ -118,7 +125,6 @@ class MarkdownOutput extends Component {
   render() {
     return (
       <div className="MarkdownOutput col-xs-12 col-sm-6">
-        <h2>Output</h2>
         <div
           id="output-div"
           dangerouslySetInnerHTML={{__html: this.props.rawText}}
