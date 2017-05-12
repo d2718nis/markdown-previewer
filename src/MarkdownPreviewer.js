@@ -20,20 +20,16 @@ This is an H2
 
 ![alt text](https://facebook.github.io/react/img/logo.svg "Logo Title Text 1")
 
-Here is an example of AppleScript:
+JavaScript code:
 
-    tell application "Foo"
-        beep
-    end tell
+\`\`\`javascript
+var s = "Some string";
+alert(s);
+\`\`\`
 
-Text attributes *italic*, **bold**,
-\`monospace\`, ~~strikethrough~~ .
+Text attributes *italic*, **bold**, \`monospace\`, ~~strikethrough~~ .
 
 > This is a blockquote
-
-Here goes HR delimiter:
-
---------
 
 Unordered list:
 
@@ -41,7 +37,19 @@ Unordered list:
   * green
   * blue
 
-*[Google](https://google.com)*`
+Here goes HR delimiter:
+
+--------
+
+Ordered list:
+
+  1. First
+    * Wow
+    * Sub-lists!
+  2. Second
+  3. Third
+
+There is a link: [google.com](https://google.com)`
     };
   }
 
