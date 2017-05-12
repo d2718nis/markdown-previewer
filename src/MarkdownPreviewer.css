@@ -3,6 +3,12 @@ body {
   background: linear-gradient(to right, #B5838D , #FFCDB2);
 }
 
+.container-fluid {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
 .row {
   padding-left: 5px;
   padding-right: 5px;
@@ -13,11 +19,14 @@ body {
   color: #fff;
   margin-left: 10px;
   margin-right: 10px;
+
 }
 
 .header > h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .MarkdownInput,
@@ -70,4 +79,25 @@ body {
 .MarkdownOutput > div img {
   max-width: 100px;
   max-height: 100px;
+}
+
+.credits {
+  margin-top: auto;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+.credits-link,
+.credits-link:active,
+.credits-link:visited {
+  color: #ddd;
+  text-decoration: none;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.credits-link:hover {
+  color: #fff;
+  text-decoration: none;
 }

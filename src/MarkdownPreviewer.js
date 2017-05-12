@@ -105,7 +105,8 @@ There is a link: [google.com](https://google.com)`
               onMouseLeave={(target) => this.handleOnMouseLeave(target)}
             />
           </div>
-          <div className="row">
+          <div className="row credits">
+            <a className="credits-link" href="https://d2718nis.github.io" target="_blank">May 2017 by Denis Z.</a>
           </div>
         </div>
       </div>
