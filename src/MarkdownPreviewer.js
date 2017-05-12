@@ -41,14 +41,6 @@ Here goes HR delimiter:
 
 --------
 
-Ordered list:
-
-  1. First
-    * Wow
-    * Sub-lists!
-  2. Second
-  3. Third
-
 There is a link: [google.com](https://google.com)`
     };
   }
