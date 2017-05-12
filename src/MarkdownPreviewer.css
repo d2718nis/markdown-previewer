@@ -44,6 +44,8 @@ body {
   word-wrap:break-word;
   border: none;
   overflow-y: scroll;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
 }
 
 .MarkdownInput > textarea {
@@ -90,7 +92,8 @@ body {
 .credits-link,
 .credits-link:active,
 .credits-link:visited {
-  color: #97656f;
+  font-family: 'Roboto', sans-serif;
+  color: #b5838d;
   text-decoration: none;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -98,6 +101,6 @@ body {
   transition: color 0.5s;
 }
 .credits-link:hover {
-  color: #b5838d;
+  color: #97656f;
   text-decoration: none;
 }
