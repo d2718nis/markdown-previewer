@@ -60,7 +60,11 @@ body {
 
 
 .MarkdownOutput > div hr {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ddd;
+}
+
+.MarkdownOutput > div blockquote {
+  border-left: 5px solid #ddd;
 }
 
 .MarkdownOutput > div img {
