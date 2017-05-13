@@ -30,18 +30,18 @@ Build a CodePen.io app that is functionally similar to [this](https://codepen.io
 
 Built with
 ----------
-* [React.js](https://facebook.github.io/react) - a JavaScript library for building user interfaces
-* [Marked.js](https://github.com/chjj/marked) - a full-featured markdown parser and compiler, written in
+* [React.js](https://facebook.github.io/react) &#8212; a JavaScript library for building user interfaces
+* [Marked.js](https://github.com/chjj/marked) &#8212; a full-featured markdown parser and compiler, written in
   JavaScript
-* [SASS](http://sass-lang.com) - the most mature, stable, and powerful professional grade CSS extension
+* [SASS](http://sass-lang.com) &#8212; the most mature, stable, and powerful professional grade CSS extension
   language in the world
-* [Bootstrap](http://getbootstrap.com) - the most popular HTML, CSS, and JS framework for developing
+* [Bootstrap](http://getbootstrap.com) &#8212; the most popular HTML, CSS, and JS framework for developing
   responsive, mobile first projects on the web
 
 
 Authors
 ----------
-* **Denis Z.** - *Initial work* - [d2718nis](https://github.com/d2718nis)
+* **Denis Z.** &#8212; *Initial work* &#8212; [d2718nis](https://github.com/d2718nis)
 
 See also the list of [contributors](https://github.com/d2718nis/markdown-previewer/contributors)
 who participated in this project.
@@ -49,5 +49,5 @@ who participated in this project.
 
 Acknowledgments
 ----------
-* [Google fonts](https://fonts.google.com) - a great collection of free and easy to use fonts
-* [Coolors.co](https://coolors.co) - the super fast color schemes generator
+* [Google fonts](https://fonts.google.com) &#8212; a great collection of free and easy to use fonts
+* [Coolors.co](https://coolors.co) &#8212; the super fast color schemes generator
