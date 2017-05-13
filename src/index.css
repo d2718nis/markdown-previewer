@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background-color: #FFB4A2;
+  background: linear-gradient(to right, #B5838D, #FFCDB2); }
 
 /*# sourceMappingURL=index.css.map */
