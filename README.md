@@ -2,7 +2,7 @@ Markdown Previewer
 ==========
 React.js markdown previewer web application for the [freecodecamp](https://www.freecodecamp.com) challenge.
 * Github pages: https://d2718nis.github.io/markdown-previewer
-* Codepen.io: http://codepen.io/d2718nis/full/dWmrob
+* Codepen.io: https://codepen.io/d2718nis/full/dWmrob
 
 ![Markdown Previewer](https://d2718nis.github.io/img/portfolio10.png "Markdown Previewer")
 
