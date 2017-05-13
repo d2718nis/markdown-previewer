@@ -28,7 +28,7 @@ Build a CodePen.io app that is functionally similar to [this](https://codepen.io
 * If you want to use the React JSX syntax, you need to enable 'Babel' as a preprocessor
 
 
-## Built With
+## Built with
 * [React.js](https://facebook.github.io/react) - a JavaScript library for building user interfaces
 * [Marked.js](https://github.com/chjj/marked) - a full-featured markdown parser and compiler, written in
   JavaScript
