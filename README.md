@@ -1,6 +1,6 @@
 Markdown Previewer
 ==========
-React.js markdown previewer web application for the [freecodecamp](https://www.freecodecamp.com/) challenge.
+React.js markdown previewer web application for the [freecodecamp](https://www.freecodecamp.com) challenge.
 * Github pages: https://d2718nis.github.io/markdown-previewer
 * Codepen.io: http://codepen.io/d2718nis/full/dWmrob
 
@@ -50,4 +50,5 @@ who participated in this project.
 Acknowledgments
 ----------
 * [Google fonts](https://fonts.google.com) &#8212; a great collection of free and easy to use fonts
-* [Coolors.co](https://coolors.co) &#8212; the super fast color schemes generator
+* [Coolors.co scheme](https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875) &#8212; the super fast
+  color schemes generator
