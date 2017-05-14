@@ -12,7 +12,7 @@ The task
 [Build a Markdown Previewer](https://www.freecodecamp.com/challenges/build-a-markdown-previewer)
 
 ### Objective
-Build a CodePen.io app that is functionally similar to [this](https://codepen.io/FreeCodeCamp/full/JXrLLE/)
+Build a CodePen.io app that is functionally similar to [this](https://codepen.io/FreeCodeCamp/full/JXrLLE)
 
 ### Rules
 * Use whichever libraries or APIs you need
