@@ -18,7 +18,7 @@ This is an H2
 
 ### This is an H3
 
-![alt text](https://facebook.github.io/react/img/logo.svg "Logo Title Text 1")
+![alt text](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg "Logo Title Text 1")
 
 JavaScript code:
 
@@ -98,7 +98,7 @@ There is a link: [google.com](https://google.com)`
             />
           </div>
           <div className="row credits">
-            <a className="credits-link" href="https://d2718nis.github.io" target="_blank">May 2017 by Denis Z.</a>
+            <a className="credits-link" href="https://d2718nis.github.io" target="_blank">May 2017 by Denis Zh.</a>
           </div>
         </div>
       </div>
